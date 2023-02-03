@@ -1,23 +1,25 @@
 <template>
   <div>
     <NavbarComponent />
-    <home-component />
+    <HerooneComponent />
+    <HeroDescription />
   </div>
 </template>
 
 <script>
-import HomeComponent from './components/HomeComponent.vue'
-import NavbarComponent from './components/NavbarComponent.vue';
+import HeroDescription from "./components/HeroDescription.vue";
+import HerooneComponent from "./components/HerooneComponent.vue";
+import NavbarComponent from "./components/NavbarComponent.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HomeComponent,
-    NavbarComponent
-}
-}
+    NavbarComponent,
+    HerooneComponent,
+    HeroDescription,
+  },
+};
 </script>
 
 <style>
-
 </style>
